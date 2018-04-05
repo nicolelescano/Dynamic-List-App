@@ -8,7 +8,7 @@ function runresponse() { //creates the list
     item.textContent = storeinput;
     ul.appendChild(item);
 var buttonE = document.createElement('button');
-    buttonE.textContent = "delete"
+    buttonE.textContent = "delete";
     item.appendChild(buttonE);
 
 
