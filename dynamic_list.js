@@ -11,6 +11,10 @@ var buttonE = document.createElement('button');
     buttonE.textContent = "delete";
     item.appendChild(buttonE);
 
+    function eliminate() { //eliminates the |
+
+    }
+    buttonE.addEventListener('click', eliminate);
 
 
 button.addEventListener('click', runresponse);
