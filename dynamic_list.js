@@ -7,14 +7,14 @@ function runresponse() { //creates the list
     var item = document.createElement('li');
     item.textContent = storeinput;
     ul.appendChild(item);
-var buttonE = document.createElement('button');
+    var buttonE = document.createElement('button');
     buttonE.textContent = "delete";
     item.appendChild(buttonE);
 
-    function eliminate() { //eliminates the |
-
+    function eliminate() { //eliminates the item
+        buttonE.parentNode.remove();
     }
     buttonE.addEventListener('click', eliminate);
-
+}
 
 button.addEventListener('click', runresponse);
